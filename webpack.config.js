@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    library: 'largeNumber',
+    library: 'largeNumber0522',
     libraryTarget: 'umd',
     libraryExport: 'default',
   },

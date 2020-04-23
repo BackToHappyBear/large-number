@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["largeNumber"] = factory();
+		exports["quickLargeNumber"] = factory();
 	else
-		root["largeNumber"] = factory();
+		root["quickLargeNumber"] = factory();
 })(window, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache

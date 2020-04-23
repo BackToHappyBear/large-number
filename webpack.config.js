@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    library: 'largeNumber0522',
+    library: 'quickLargeNumber',
     libraryTarget: 'umd',
     libraryExport: 'default',
   },
@@ -15,8 +15,8 @@ module.exports = {
     minimize: true,
     minimizer: [
       new TerserPlugin({
-        include: /\.min\.js$/
-      })
-    ]
-  }
+        include: /\.min\.js$/,
+      }),
+    ],
+  },
 }

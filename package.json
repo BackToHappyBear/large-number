@@ -1,5 +1,5 @@
 {
-  "name": "large-number-0522",
+  "name": "quick-large-number",
   "version": "1.0.0",
   "description": " 大整数加法",
   "main": "index.js",
